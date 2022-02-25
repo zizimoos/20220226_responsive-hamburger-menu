@@ -56,7 +56,7 @@ const NavList = styled.div`
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    background-color: black;
+    background-color: salmon;
     ${(props) => (props.move ? `display: none;` : `display: flex;`)}
     ${(props) => (props.extendNavbar ? `display: flex;` : `display: none;`)}
   }
